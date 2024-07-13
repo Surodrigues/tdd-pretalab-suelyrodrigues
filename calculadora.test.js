@@ -3,6 +3,8 @@ const Calculadora = require('./calculadora')
 describe('Calculadora', () => {
   it('Deverá retornar a soma de dois números', () => {
     //Seu código aqui
+    const calculadora = new Calculadora()
+    expect(calculadora.soma(2,2)).toEqual(4)
     
   })
 
